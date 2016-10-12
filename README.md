@@ -56,7 +56,7 @@ var mensaje="Hola mundo";
 Para usar tablas necesitamos definir las columnas con |
 
 | Columna 1 | Columna 2 | Columna 3 |
-|-|-|-|
+| --- | --- | --- |
 | Valor 1 C1 | Valor 1 C2 | Valor 1 C3 |
 | Valor 2 C1 | Valor 2 C2 | Valor 2 C3 |
 | Valor 3 C1 | Valor 3 C2 | Valor 3 C3 |
