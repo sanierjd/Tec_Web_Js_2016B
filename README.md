@@ -43,6 +43,21 @@ Para nosotros utilizar el formateo de codigo dentro de texto plano debemos de ut
 Para utilizar el formateo de codigo en un bloque de codigo necesitamos utilizar 3 `Tilde invertida` donde se puede especificar el lenguaje de programacion a usarse para el formateo de codigo justo despues de las 3 tildes
 
 ```javascript
-var mensaje = "Hola mundo"
+var mensaje="Hola mundo";
 ```
+
+* Bloque de codigo de una ``consola``
+
+
+```
+> apt -get
+```
+## Tablas
+Para usar tablas necesitamos definir las columnas con |
+
+| Columna 1 | Columna 2 | Columna 3 |
+|-|-|-|
+| Valor 1 C1 | Valor 1 C2 | Valor 1 C3 |
+| Valor 2 C1 | Valor 2 C2 | Valor 2 C3 |
+| Valor 3 C1 | Valor 3 C2 | Valor 3 C3 |
 
