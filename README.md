@@ -61,3 +61,11 @@ Para usar tablas necesitamos definir las columnas con |
 | Valor 2 C1 | Valor 2 C2 | Valor 2 C3 |
 | Valor 3 C1 | Valor 3 C2 | Valor 3 C3 |
 
+## Citas (no de humanos sino de texto)
+
+Para escribir varias lineas  de citas solamente cancatenamos en la siguiente linea utilizando >
+
+>Yo solo se, que nada se.
+
+>Un folosofo random.
+
