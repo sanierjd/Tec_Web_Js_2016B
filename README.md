@@ -69,3 +69,18 @@ Para escribir varias lineas  de citas solamente cancatenamos en la siguiente lin
 
 >Un folosofo random.
 
+## Saltos de linea
+
+Para utilizar un salto de linea debemos de utilizar mas de 3 veces el caracter `-`
+---
+
+O el caracter `*`
+
+***
+
+O el caracter `__`
+
+___
+
+> Otro quote :) 
+
