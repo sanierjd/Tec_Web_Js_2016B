@@ -254,8 +254,11 @@ Mediante el tag ol colocamos listas ordenadas
 <img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Lista%20Ordenada.JPG"/>
 </p>
 
-
-
+### Inspector
+Podemos observar cada uno de los elementos del sitio web mediante el uso del inspector
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Inspector.JPG"/>
+</p>
 
 <br>
 <a href="#cabecera">A la cabecera</a>
