@@ -1,32 +1,3 @@
-# Estructura
-
-Un informe debe de seguir la siguiente estructura:
-
-- **Cabecera**
-  * Materia
-  * Tema
-  * Fecha
-  * Nombre
-  * Nombre del Profesor (TANIA CALLE Y ADRIAN EGUEZ)
-  * Número de Informe (El número de informe es secuencial)
-- **Índice de contenidos**
-  * En el indice de contenidos debemos de tener los indices y sub indices (excepto de la cabecera y el índice) de toda la estructura del informe.
-- **Tema**
-  * Un nombre o descrición por ejemplo (Tags HTML o Introducción a la Web)
-- **Objetivos**
-  * Los objetivos es que es lo que se va a lograr con los informes, si en clase se aprendio acerca de DOCTYPEs entonces eso es un objetivo, si aprendierono TAGS HTML, ese es otro objetivo y así.
-- **Marco Teorico**
-  * En el Marco Teórico, lo que nos interesa es describir los conceptos que revisamos dentro de la clase, por ejemplo si revisamos el concepto de `navegador` entonces describiremos que es un navegador con referencias osea un LINK AL RECURSO, si es un libro el link a una pagina informativad del libro y en que parte del libro se encontro dicha información.
-- **Desarrollo de la Práctica**
-  * El desarrollo de la práctica son `capturas` de pantalla de lo que se hizo en clases y su `descripción`, por ejemplo si se utilizo el postman para conectarse con google y revisar los códigos de estatus HTTP, eso es lo que deberia de ir en las imágenes y descripciones.
-- **Conclusiones y Recomendaciones**
-  * Conclusiones son que objetivos se lograron y que se aprendió haciendo esos objetivos.
-  * Recomendaciones son que temas también o cuales temas estuvieron de más abordados en la clase, o también cómo se podría mejorar esa práctica.
-
-# Ejemplo de informe
-
-El siguiente es un ejemplo de un informe, la informacion es irrelevante, más lo que interesa es la estructura.
-
 # Introducción a la Web
 
 ### Materia : `Tecnologías Web con JavaScript`
@@ -194,77 +165,108 @@ Postma incluye:
 
 <a href="#cabecera">A la cabecera</a>
 
+<a name="tags"></a>
+### Tags
+<a name="h1"></a>
+#### h1
+Las etiquetas h1 a h6 son usadas para definir títulos HTML.
+
+<a name="p"></a>
+#### p
+La etiqueta p define un párrafo. Los navegadores automáticamente agregan algo de espacio (margin) antes y después de cada elemento p. Los margenes pueden ser modificados con CSS (con las propiedades de margen).
+
+<a name="ul"></a>
+#### ul
+La etiqueta ul define una lista no ordenada (bulleted). Se usa la etiqueta ul junto con la etiqueta li para crear un lista no ordenada.
+
+<a name="ol"></a>
+#### ol
+La etiqueta ol define una lista ordenada,puede ser numérica o alfabética. Se usa la etiqueta li para definir una lista de elementos.
+
+<a name="li"></a>
+#### li
+La etiqueta li define un elemento de una lista, se usada para una lista ordenada ol, lista no ordenada ul.
+
+(Fuente: [w3schools](http://www.w3schools.com/tags/))
+
+<a href="#cabecera">A la cabecera</a>
+
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-### Imagenes desde Github **IMPORTANTE**
-
-Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
-
-- Github
-  * La url de github que es `https://github.com` 
-- Usuario
-  * La url de usuario de github que en este caso es: `/adrianeguez` 
-- Repositorio
-  * El repositorio de Github que estamos usando, en este caso es `/Tec_Web_Js_2016_B`
-- Rama o  Branch
-  * La rama de nuestro repositorio en este formato: `/blob/master`
-- El PATH
-  * La direccíon de nuesto archivo por ejemplo `/carpeta/subcarpeta/subsubcarpeta/archivo.png` en este ejemplo es `/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png` 
-- RAW
-  * Por ultimo mandamos un Query String Parameter de la con la variable `raw` y valor `true` de la siguiente manera: `?raw=true`
-  
-**Al final** nuestro url queda de la siguiente manera:
-
-#### `https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true`
-
+### Esquema general HTML
+Creamos un documento html con los elementos básicos como las cabeceras y el cuerpo de un HTML.
 <p align="center">
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Esquema%20HTML.JPG"/>
 </p>
 
-Por ultimo podemos centrar las imagenes de la siguiente manera:
-
-
-```
+### Títulos h1
+Con h1 colocamos títulos principales
 <p align="center">
-
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
-
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Header.JPG"/>
 </p>
-```
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/T%C3%ADtulo.JPG"/>
+</p>
 
-### Links dentro de github
+### Parrafos
+Con el tag p colocamos parrafos y con estilos CSS podemos darle un fondo de un color de nuestra elección
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/P%C3%A1rrafo.JPG"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/P%C3%A1rrafo%20fondo%20violeta.JPG"/>
+</p>
 
-Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
+### Imágenes
+Podemos colocar imágenes usando la URL del la imagen
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Imagen.JPG"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Imagenes.JPG"/>
+</p>
 
-1. Definir un anchor name donde nosotros queramos mover cuando demos clic de la siguiente manera y formate (**NOTESE QUE ESTAN JUNTAS**):
+### Enlaces
+Podemos colocar enlaces usando la URL del sitio web al que queremos redireccionar 
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Enlaces.JPG"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Enlaces.JPG"/>
+</p>
 
-  ```
-  <a name="nombre"></a>
-  ## titulo2
-  ```
-2. Después de esto debemos de linkear mediante un texto por ejemplo en una lista de la siguiente manera (**NO ELVIDAR EL `#`**):
- 
-  ```
-  - <a href="#nombre">Dale clic aqui para ir al titulo 2</a>
-  ```
-  <a name="conrec"></a>
+### Listas desordenadas
+Mediante el tag ul colocamos listas desordenadas
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20lista%20desordenada.JPG"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Lista%20desordenada.JPG"/>
+</p>
+
+### Listas Ordenadas
+Mediante el tag ol colocamos listas ordenadas
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Lista%20Ordenada.JPG"/>
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Lista%20Ordenada.JPG"/>
+</p>
+
+
+
 
 <br>
 <a href="#cabecera">A la cabecera</a>
 
 ## Conclusiones y Recomendaciones
 
-- Se recomienda mejorar la presentacion
-- Se recomienda usar el ir a cabecera despues de terminar una seccion
-- Se aprendio el uso de HTML con Markdown
+- Con un navegador web, un usuario puede visualizar sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia
+- El protocolo HTTP (The Hypertext Transfer Protocol) trabaja como un protocolo de pedido-respuesta entre el cliente y servidor.
+- Se aprendió el uso de HTML con Markdown
 - Conocimos herramientas de desarrollo web como postman e inspector web
 - Desarrollamos conocimientos de introducción Web
 
 <br>
 <a href="#cabecera">A la cabecera</a>
-
-
-# ¡Gracias por su atención!
-
-Author: [Adrian Eguez](https://github.com/adrianeguez)
