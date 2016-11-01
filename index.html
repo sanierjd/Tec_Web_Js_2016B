@@ -40,8 +40,10 @@
         
         
         
-        console.log('Hola desde la consola');
+        //console.log('Hola desde la consola');
         
+        
+        /*
         // Arreglos
         
         var arregloString = ["1", "2", '3', '4'];
@@ -64,9 +66,45 @@
         
         var arregloTodo = ['1.5', 2.3, false, null];
         console.log(arregloTodo.length);
+        */
         
         
+        // Objetos
         
+        var seint = {
+            'nombre':'Santiago',
+            'apellido':'Loya',
+            edad:23,
+            mascota:['Shadow', 'Sammy', 'Tacho'],
+            hermanos:[{'nombre':'Andres'}, {'nombre':'Belen'}],
+            getNombre:function (){
+                return this.nombre;
+            },
+            getApellido:function (){
+                return this.apellido;
+            },
+            setApellido:function (nuevoApellido){
+                this.apellido = nuevoApellido;
+            }
+            
+        }
+        
+        console.log('Acceder Nombre');
+        console.log(seint.nombre);
+        
+        console.log('Acceder Apellido');
+        console.log(seint.apellido);
+        
+        /*
+        function getNombreSeint(){
+            return seint.nombre;
+        }
+        */
+        
+        //console.log(getNombreSeint());
+        console.log(seint.getNombre());
+        seint.setApellido('Nasimba');
+        console.log(seint.getApellido());
 
         
         
