@@ -34,14 +34,16 @@
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Introduccion a la Web`
+El tema de la práctica es: `Introduccion a CSS`
 
 <a name="objetivos"></a>
 ## Objetivos
 
-- Desarrollar el conocimiento Web
-- Conocer herramientas de desarrolladores web como: postman, inspetor web
-- Aprender el uso de lenguaje HTML CSS
+
+- Aprender los conceptos básicos sobre el lenguaje CSS.
+- Crear hojas de estilo para usar en conjunto con CSS.
+- Aprender el uso básico de Bootstrap.
+
 
 <a name="marco-teorico"></a>
 ## Marco Teórico
