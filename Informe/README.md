@@ -199,9 +199,25 @@ Los fotogramas clave mantener lo estilos el elemento tendrá en determinados mom
 
 Se puede agregar estilos en la cabecera de nuestro documento HTML, especificando los elementos html a los cuales aplicaremos dichos estilos.
 
+        html{
+            background-color: #687fd4;
+        }
+        body{
+            background-color: #6d7fd4;
+        }
         h1{
             background-color: azure;
         }
+        
+
+        
+<p align="center">
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/02-CSS/Informe/Cabecera.PNG"/>
+</p>
+
+### Estilos con clases
+Se pueden asignar estilos en forma de clases, de manera que se pueda asignar esatas claes a diferentes elementos.
+
         p{
             background-color: red;
         }
@@ -215,83 +231,40 @@ Se puede agregar estilos en la cabecera de nuestro documento HTML, especificando
         .nombreClaseRojo{
             background-color: red;
         }
-        
-
-        
 <p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Esquema%20HTML.JPG"/>
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/02-CSS/Informe/Estilos.PNG"/>
 </p>
 
-### Títulos h1
-Con h1 colocamos títulos principales
+
+### Columnas
+Se pueden crear columnas con CSS, el Grid son 12 columnas de fluido. Se adptan a tamaño de la pagina
+
+    <div class="row">
+           <h1>Fila1</h1> 
+          <h1>Fila1</h1>
+         
+          <div class="col-md_4">
+              <h2>Columna md4 1</h2>
+          </div>
+          <div class="col-md_4">
+              <h2>Columna md4 2</h2>
+          </div>
+          <div class="col-md_4">
+              <h2>Columna md4 3</h2>
+          </div>
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Header.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/T%C3%ADtulo.JPG"/>
+<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/02-CSS/Informe/Columnas.png"/>
 </p>
 
-### Parrafos
-Con el tag p colocamos parrafos y con estilos CSS podemos darle un fondo de un color de nuestra elección
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/P%C3%A1rrafo.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/P%C3%A1rrafo%20fondo%20violeta.JPG"/>
-</p>
 
-### Imágenes
-Podemos colocar imágenes usando la URL del la imagen
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Imagen.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Imagenes.JPG"/>
-</p>
 
-### Enlaces
-Podemos colocar enlaces usando la URL del sitio web al que queremos redireccionar 
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Enlaces.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Enlaces.JPG"/>
-</p>
-
-### Listas desordenadas
-Mediante el tag ul colocamos listas desordenadas
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20lista%20desordenada.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Lista%20desordenada.JPG"/>
-</p>
-
-### Listas Ordenadas
-Mediante el tag ol colocamos listas ordenadas
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Lista%20Ordenada.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Lista%20Ordenada.JPG"/>
-</p>
-
-### Inspector
-Podemos observar cada uno de los elementos del sitio web mediante el uso del inspector
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Inspector.JPG"/>
-</p>
-
-<br>
-<a href="#cabecera">A la cabecera</a>
 
 ## Conclusiones y Recomendaciones
 
-- Con un navegador web, un usuario puede visualizar sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia
-- El protocolo HTTP (The Hypertext Transfer Protocol) trabaja como un protocolo de pedido-respuesta entre el cliente y servidor.
-- Se aprendió el uso de HTML con Markdown
-- Conocimos herramientas de desarrollo web como postman e inspector web
-- Desarrollamos conocimientos de introducción Web
+- Un pseudo-clase se utiliza para definir un estado especial de un elemento.
+- Usando CSS en conjunto con HTML se puede mejorar la presentación de las páginas web.
+- Desarrollamos conocimientos de introducción a CSS
 
 <br>
 <a href="#cabecera">A la cabecera</a>
