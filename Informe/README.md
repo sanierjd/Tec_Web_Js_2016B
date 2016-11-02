@@ -199,7 +199,7 @@ Los fotogramas clave mantener lo estilos el elemento tendrá en determinados mom
 
 Se puede agregar estilos en la cabecera de nuestro documento HTML, especificando los elementos html a los cuales aplicaremos dichos estilos.
 
- h1{
+        h1{
             background-color: azure;
         }
         p{
