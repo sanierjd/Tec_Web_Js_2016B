@@ -219,71 +219,162 @@ Optimización de motores de búsqueda eficaz puede requerir cambios en el códig
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-### Esquema general HTML
-Creamos un documento html con los elementos básicos como las cabeceras y el cuerpo de un HTML.
+### Etiquetas para diferentes tamaños
+
+- small: hace el texto más pequeño y mas claro
+- code: Hace que el texto se vea como código
+
+
+    <h1>Mi titulo <small>este texto es mas claro</small> </h1>
+
+    <h2>Mi ejemplo de codigo</h2>
+
+    <p>El tag para describir imagenes es: <code>&lt;img&gt;</code></p>
+
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Esquema%20HTML.JPG"/>
 </p>
 
-### Títulos h1
+### Forms
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">yo</div>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            <div class="input-group-addon">aq</div>
+                        </div>
+                        
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
 Con h1 colocamos títulos principales
 <p align="center">
 <img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Header.JPG"/>
 </p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/T%C3%ADtulo.JPG"/>
-</p>
 
-### Parrafos
-Con el tag p colocamos parrafos y con estilos CSS podemos darle un fondo de un color de nuestra elección
+
+### Tablas
+    <table>
+        <tr>
+            <th>asfdasdf</th>
+            <th>asdf</th>
+            <th>asdf</th>
+        </tr>
+        <tr>
+            <td>asf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+        </tr>
+        <tr>
+            <td>asdf</td>
+            <td>asdf</td>
+            <td>asdf</td>
+        </tr>
+    </table>
+    
+    
 <p align="center">
 <img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/P%C3%A1rrafo.JPG"/>
 </p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/P%C3%A1rrafo%20fondo%20violeta.JPG"/>
-</p>
 
-### Imágenes
-Podemos colocar imágenes usando la URL del la imagen
+
+### Tablas con Bootstrap
+    <table class="table table-condensed ">
+        <!--   TABLE ROW    -->
+        <tr class="active">
+            <!--   TABLE HEADER    -->
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr class="warning">
+            <!--   TABLE DETAIL    -->
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr class="success">
+            <!--   TABLE DETAIL    -->
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr class="info">
+            <!--   TABLE DETAIL    -->
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr class="danger">
+            <!--   TABLE DETAIL    -->
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr>
+            <!--   TABLE DETAIL    -->
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr>
+            <!--   TABLE DETAIL    -->
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr>
+            <!--   TABLE DETAIL    -->
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr>
+            <!--   TABLE DETAIL    -->
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr>
+            <!--   TABLE DETAIL    -->
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <!--   TABLE ROW    -->
+        <tr>
+            <!--   TABLE DETAIL    -->
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+    
 <p align="center">
 <img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Imagen.JPG"/>
 </p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Imagenes.JPG"/>
-</p>
 
-### Enlaces
-Podemos colocar enlaces usando la URL del sitio web al que queremos redireccionar 
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Enlaces.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Enlaces.JPG"/>
-</p>
 
-### Listas desordenadas
-Mediante el tag ul colocamos listas desordenadas
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20lista%20desordenada.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Lista%20desordenada.JPG"/>
-</p>
-
-### Listas Ordenadas
-Mediante el tag ol colocamos listas ordenadas
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Lista%20Ordenada.JPG"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Lista%20Ordenada.JPG"/>
-</p>
-
-### Inspector
-Podemos observar cada uno de los elementos del sitio web mediante el uso del inspector
-<p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Inspector.JPG"/>
-</p>
 
 <br>
 <a href="#cabecera">A la cabecera</a>
