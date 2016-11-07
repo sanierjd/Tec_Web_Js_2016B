@@ -233,7 +233,7 @@ Optimización de motores de búsqueda eficaz puede requerir cambios en el códig
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Esquema%20HTML.JPG"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Tamaños.PNG?raw=true">
 </p>
 
 ### Forms
@@ -258,9 +258,9 @@ Optimización de motores de búsqueda eficaz puede requerir cambios en el códig
             <div class="col-sm-3"></div>
         </div>
     </div>
-Con h1 colocamos títulos principales
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Header.JPG"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Forms.PNG?raw=true"/>
 </p>
 
 
@@ -285,9 +285,8 @@ Con h1 colocamos títulos principales
     
     
 <p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/P%C3%A1rrafo.JPG"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Tablas.PNG?raw=true"/>
 </p>
-
 
 ### Tablas con Bootstrap
     <table class="table table-condensed ">
@@ -371,21 +370,17 @@ Con h1 colocamos títulos principales
     </table>
     
 <p align="center">
-<img src="https://raw.githubusercontent.com/sanierjd/Tec_Web_Js_2016B/01-HTML/Im%C3%A1genes/Codigo%20Imagen.JPG"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Bootstrap.PNG?raw=true"/>
 </p>
-
-
 
 <br>
 <a href="#cabecera">A la cabecera</a>
 
 ## Conclusiones y Recomendaciones
 
-- Con un navegador web, un usuario puede visualizar sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia
-- El protocolo HTTP (The Hypertext Transfer Protocol) trabaja como un protocolo de pedido-respuesta entre el cliente y servidor.
-- Se aprendió el uso de HTML con Markdown
-- Conocimos herramientas de desarrollo web como postman e inspector web
-- Desarrollamos conocimientos de introducción Web
+- Podemos crear buenas páginas web siguiendo estándares recomendados para un diseño adecuado.
+- Bootstrap nos permite usar varios estilos visuales que aumenta la calidad ed nuestras páginas web.
+- SEO es el proceso de mejorar el ranking (visibilidad) de un sitio web en los motores de búsqueda.
 
 <br>
 <a href="#cabecera">A la cabecera</a>
