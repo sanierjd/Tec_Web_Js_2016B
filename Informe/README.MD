@@ -20,7 +20,7 @@
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
   * <a href="#diseñoweb">Diseño Web</a>
-  * <a href="#calidadweb">Calidad Webb</a>
+  * <a href="#calidadweb">Calidad Web</a>
   * <a href="#wai" >WAI</a>  
   * <a href="#validacionweb" >Validación Web</a>
   * <a href="#seo" >SEO Web</a>
