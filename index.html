@@ -147,10 +147,12 @@
         }
         */
         
-        //var i=10;
+        
+        /*
         for(var i=10; i>0; i--){
             console.log(i);
         }
+        */
         
         
         /*
@@ -159,6 +161,27 @@
             console.log("There will be "+numSheep+" at month "+monthNumber);
         }
         */
+        
+        for(monthNumber=1; monthNumber <= monthsToPrint; monthNumber++){
+            numSheep*=4;
+            
+            console.log("There will be "+numSheep+" at month "+monthNumber);
+            
+            if(monthNumber%4==0){
+                console.log("Retirarda: "+numSheep);
+                numSheep=numSheep-numSheep*0.75;
+                
+            }
+            else{
+                if(numSheep>10000){
+                numSheep = numSheep/2;
+                console.log("Retirarda: "+numSheep);
+                }
+            }
+            
+            
+            
+        }
         
         
         
