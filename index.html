@@ -68,7 +68,7 @@
         console.log(arregloTodo.length);
         */
         
-        
+        /*
         // Objetos
         
         var seint = {
@@ -88,12 +88,13 @@
             }
             
         }
+        */
         
-        console.log('Acceder Nombre');
-        console.log(seint.nombre);
+        //console.log('Acceder Nombre');
+        //console.log(seint.nombre);
         
-        console.log('Acceder Apellido');
-        console.log(seint.apellido);
+        //console.log('Acceder Apellido');
+        //console.log(seint.apellido);
         
         /*
         function getNombreSeint(){
@@ -102,9 +103,36 @@
         */
         
         //console.log(getNombreSeint());
-        console.log(seint.getNombre());
-        seint.setApellido('Nasimba');
-        console.log(seint.getApellido());
+        //console.log(seint.getNombre());
+        //seint.setApellido('Nasimba');
+        //console.log(seint.getApellido());
+        
+        console.log("Empieza");
+        
+        
+        
+        var count=10;
+        var arreglo=[];
+        
+        while(count>0){
+            
+            if(count%2==0){
+                console.log("El numero: "+count+" es par");
+                arreglo.push(count);
+            }else{
+                console.log("El numero: "+count+" es impar");
+                arreglo.push(count);
+            }
+                
+            count--;
+        }
+        
+        arreglo.pop();
+        arreglo.splice(9,1,11);
+        
+        console.log(arreglo);
+        
+        
 
         
         
