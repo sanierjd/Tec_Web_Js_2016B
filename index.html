@@ -110,7 +110,7 @@
         //seint.setApellido('Nasimba');
         //console.log(seint.getApellido());
         
-        console.log("Empieza");
+        //console.log("Empieza");
         
         
         /*
@@ -137,10 +137,12 @@
         */
         // Ovejas
         
-        
+        /*
         var numSheep = 4;
         var monthNumber = 1;
         var monthsToPrint = 12;
+        */
+        
         /*
         while(monthNumber<=monthsToPrint){
             numSheep*=4;
@@ -268,7 +270,7 @@
         
         */
         
-        
+        /*
         var nombreFuncion = function(){
             console.log('nombreFuncion')
         }
@@ -280,6 +282,23 @@
         }
         
         nombre();
+        */
+        
+        var passengers = [['Thomas', 'Meeks'],
+                          ['Gregg', 'Pollack'],
+                          ['Christine', 'Wong'],
+                          ['Dan', 'McGaw']];
+        
+        // Funcion map devuelve un arreglo
+        var modifiedNames = passengers.map(function(arrayNombreApellido){
+            return arrayNombreApellido[0]+" "+arrayNombreApellido[1];
+        });
+        
+        console.log(modifiedNames);
+        
+        var modified2 = modifiedNames.map(function(nombrePasajero){
+            alert("Yo, "+ nombrePasajero);
+        })
         
         
             
