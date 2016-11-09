@@ -326,7 +326,7 @@
         */
         
         // Adventure selector
-        
+        /*
         function adventureSelector(userChoise){
             if(userChoise==1){
                 return function(){
@@ -348,7 +348,31 @@
         console.log(adventureSelector(1)());
         console.log(adventureSelector(2)());
         console.log(adventureSelector(3)());
+        */
         
+        // Puzzlers Queue
+        
+        var puzzlers = [
+            function (a){return 8*a-10;},
+            function (a){return (a-3)*(a-3)*(a-3);},
+            function (a){return a*a+4;},
+            function (a){return a%5;}
+        ];
+        
+        var start = 2;
+        
+        var applyAndEmpty = function(input, queue){
+            var longitud = queue.length;
+            for(var i=0; i<longitud; i++){
+                input = queue[0](input);
+                queue.splice(0,1);
+                
+            }
+            //console.log(queue);
+            return input;
+        } 
+        
+        console.log(applyAndEmpty(start, puzzlers));
         
             
     </script>
