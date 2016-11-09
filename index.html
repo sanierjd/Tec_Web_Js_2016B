@@ -284,6 +284,8 @@
         nombre();
         */
         
+        // Passengers
+        /*
         var passengers = [['Thomas', 'Meeks'],
                           ['Gregg', 'Pollack'],
                           ['Christine', 'Wong'],
@@ -299,7 +301,28 @@
         var modified2 = modifiedNames.map(function(nombrePasajero){
             alert("Yo, "+ nombrePasajero);
         })
+        */
+    
+        // Puzzlers
         
+        var puzzlers = [
+            function(input){
+                return ((3*input)-8);
+            },
+            function(input){
+                return (Math.pow((input+2), 3));
+            },
+            function(input){
+                return (Math.pow(input, 2)-9);
+            }, 
+            function(input){
+                return (input%4);
+            }];
+        
+        console.log(puzzlers[0](5));
+        console.log(puzzlers[1](5));
+        console.log(puzzlers[2](5));
+        console.log(puzzlers[3](5));
         
             
     </script>
