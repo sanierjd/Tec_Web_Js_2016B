@@ -1,0 +1,14 @@
+{
+  "name": "tecnologiasweblsantiago",
+  "version": "1.0.1",
+  "description": "Ejemplo para usar npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculadora"
+  ],
+  "author": "Santiago Loya",
+  "license": "MIT"
+}
