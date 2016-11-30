@@ -1,11 +1,31 @@
 var express = require('express')
 var app = express()
 
+var usuarios = [
+    {
+        id:1,
+        nombre: 'Pepe',
+        cedula: '123'
+    },
+    {
+        id:2,
+        nombre: 'Jose',
+        cedula: '1234'
+    },
+    {
+        id:3,
+        nombre: 'Juan',
+        cedula: '12345'
+    }
+]
+
 app.get('/', function (req, res) {
   res.send('Hello World!')
   
   // request req
   // response res
+  
+  var paremetros = req.param;
   
   var usuario = {
       nombre: 'Santiago',
