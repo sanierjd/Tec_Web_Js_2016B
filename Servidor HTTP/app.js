@@ -27,6 +27,8 @@ app.get('/', function (req, res) {
     
     console.log('1 antes de leer');
     
+    var todo = '';
+    
     fs.readFile('./paginas/pagina.html', 'utf8',
     function (error, archivoLeido){
         console.log('3 '+error);
