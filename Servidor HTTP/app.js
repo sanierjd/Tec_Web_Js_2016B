@@ -1,3 +1,5 @@
+// comandos 
+
 var express = require('express')
 var app = express()
 
@@ -22,8 +24,38 @@ var usuarios = [
 var contador = 3;
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+    
+    console.log('1 antes de leer');
+    
+    fs.readFile('./paginas/pagina.html', 'utf8',
+    function (error, archivoLeido){
+        console.log('3 '+error);
+        console.log('4 '+archivoLeido);
+        
+        res.send('Archivo leido');
+    });
+    
+    console.log('2 parece que termino de leer');
+  
 })
+
+
+var quePasa = '';
+quePasa = 'esta por leer archivo'
+
+/*
+fs.readFile('./paginas/pagina.html', 'utf8',
+    function error(error, archivoLeido){
+        console.log(error);
+        console.log(archivoLeido);
+    });
+    
+    */
+
+
+
+
+
 
 /*
 app.post('/TecnologiasWeb', function (req, res) {
