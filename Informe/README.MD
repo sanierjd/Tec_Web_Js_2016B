@@ -87,7 +87,7 @@ Los controladores (el C en MVC) son los principales objetos de la aplicación Sa
 <a name="pipeline"></a>
 ### Pipeline
 
-El archivo pipeline.js en la aplicación Sails determina el orden en que sus hojas de estilo, JavaScript y los archivos de plantilla del lado del cliente deben ser compilados y enlazados como etiquetas <script> o <link>.
+El archivo pipeline.js en la aplicación Sails determina el orden en que sus hojas de estilo, JavaScript y los archivos de plantilla del lado del cliente deben ser compilados y enlazados como etiquetas `<script>` o `<link>`.
 
 (Fuente: [Pipeline](http://sailsjs.com/documentation/anatomy/tasks/pipeline.js))
 <br>
