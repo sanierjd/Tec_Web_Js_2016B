@@ -130,21 +130,62 @@ Ejecutamos el comando
 <img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Levan.PNG?raw=true"/>
 </p>
 
-### Tablas con Bootstrap
+Nos muestra una página de prueba
 
-    
 <p align="center">
-<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Bootstrap.PNG?raw=true"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Prueba.PNG?raw=true"/>
 </p>
 
+El servidor web de sails está localizado en la carpeta assets con los siguientes archivos:
+
+<p align="center">
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Archivos.PNG?raw=true"/>
+</p>
+
+Modificamos los archivos:
+
+#### index.html
+
+    <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>Document</title>
+                <link rel="stylesheet" href="estilos.css">
+            </head>
+            <body>
+                <h1>Hola mundo</h1>
+                <script src="App.js">
+                </script>
+            </body>
+        </html>
+
+#### estilos.css
+
+    body {
+        background-color: darkblue;
+        color: white;
+    }
+
+#### App.js
+
+    alert("No es bueno utilizar alert");
+    
+
+<p align="center">
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Resultado.PNG?raw=true"/>
+</p>
+    
+    
 <br>
 <a href="#cabecera">A la cabecera</a>
 
 ## Conclusiones y Recomendaciones
 
-- Podemos crear buenas páginas web siguiendo estándares recomendados para un diseño adecuado.
-- Bootstrap nos permite usar varios estilos visuales que aumenta la calidad ed nuestras páginas web.
-- SEO es el proceso de mejorar el ranking (visibilidad) de un sitio web en los motores de búsqueda.
+- En Sails, las vistas son plantillas de marcado que se compilan en el servidor en páginas HTML.
+- SailsJS, facilita en gran medida el desarrollo de APIs REST,
+- Sails.js permite crear servidores web, usando el gestor de paquetes npm.
+
 
 <br>
 <a href="#cabecera">A la cabecera</a>
