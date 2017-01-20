@@ -103,22 +103,31 @@ Ejecutamos el siguiente comando en la consola
 > npm insall -g sails
 
 <p align="center">
-<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/ins.PNG?raw=true">
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Inst.PNG?raw=true"/>
 </p>
 
-### Forms
+<p align="center">
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Insta.PNG?raw=true"/>
+</p>
+
+### Creación de un proyecto
 
 <p align="center">
-<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/ins.PNG?raw=true"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Mascotas.PNG?raw=true"/>
 </p>
 
 
-### Tablas
+### Levantar el servidor
 
-    
-    
+Ejecutamos el comando
+> sails lift
+
 <p align="center">
-<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Tablas.PNG?raw=true"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Levantar.PNG?raw=true"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/Levan.PNG?raw=true"/>
 </p>
 
 ### Tablas con Bootstrap
