@@ -97,69 +97,24 @@ El archivo pipeline.js en la aplicación Sails determina el orden en que sus hoj
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-### Etiquetas para diferentes tamaños
+### Instalación de sails.js
 
-- small: hace el texto más pequeño y mas claro
-- code: Hace que el texto se vea como código
-
-
-    <h1>Mi titulo <small>este texto es mas claro</small> </h1>
-
-    <h2>Mi ejemplo de codigo</h2>
-
-    <p>El tag para describir imagenes es: <code>&lt;img&gt;</code></p>
-
+Ejecutamos el siguiente comando en la consola
+> npm insall -g sails
 
 <p align="center">
-<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Tamaños.PNG?raw=true">
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/11-sails-02/Informe/Imagenes/ins.PNG?raw=true">
 </p>
 
 ### Forms
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <div class="input-group">
-                            <div class="input-group-addon">yo</div>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                            <div class="input-group-addon">aq</div>
-                        </div>
-                        
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </div>
-
 <p align="center">
-<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Forms.PNG?raw=true"/>
+<img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/ins.PNG?raw=true"/>
 </p>
 
 
 ### Tablas
-    <table>
-        <tr>
-            <th>asfdasdf</th>
-            <th>asdf</th>
-            <th>asdf</th>
-        </tr>
-        <tr>
-            <td>asf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-        </tr>
-        <tr>
-            <td>asdf</td>
-            <td>asdf</td>
-            <td>asdf</td>
-        </tr>
-    </table>
+
     
     
 <p align="center">
@@ -167,85 +122,7 @@ El archivo pipeline.js en la aplicación Sails determina el orden en que sus hoj
 </p>
 
 ### Tablas con Bootstrap
-    <table class="table table-condensed ">
-        <!--   TABLE ROW    -->
-        <tr class="active">
-            <!--   TABLE HEADER    -->
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr class="warning">
-            <!--   TABLE DETAIL    -->
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr class="success">
-            <!--   TABLE DETAIL    -->
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr class="info">
-            <!--   TABLE DETAIL    -->
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr class="danger">
-            <!--   TABLE DETAIL    -->
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr>
-            <!--   TABLE DETAIL    -->
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr>
-            <!--   TABLE DETAIL    -->
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr>
-            <!--   TABLE DETAIL    -->
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr>
-            <!--   TABLE DETAIL    -->
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr>
-            <!--   TABLE DETAIL    -->
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <!--   TABLE ROW    -->
-        <tr>
-            <!--   TABLE DETAIL    -->
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-    </table>
+
     
 <p align="center">
 <img src="https://github.com/sanierjd/Tec_Web_Js_2016B/blob/03-Bootstrap/Informe/Imagenes/Bootstrap.PNG?raw=true"/>
