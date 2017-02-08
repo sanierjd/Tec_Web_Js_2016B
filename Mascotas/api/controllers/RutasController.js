@@ -23,6 +23,27 @@ module.exports = {
             }
         });
     }
+  
+  listarUsuarios: function (req, res) {
+
+        Usuario.find()
+            .exec(function (errorIndefinido, usuariosEncontrados) {
+
+                if (errorIndefinido) {
+                    res.view('vistas/Error', {
+                        error: {
+                            desripcion: "Hubo un problema cargando los Usuarios",
+                            rawError: errorIndefinido,
+                            url: "/ListarUsuarios"
+                        }
+                    });
+                }
+            
+                res.view('vistas/Usuario/ListarUsuarios', {
+                    usuarios:usuariosEncontrados
+                });
+            })
+    }
     
 };
 
