@@ -22,9 +22,9 @@ module.exports = {
                 url:"/Inicio"
             }
         });
-    }
+    },
   
-  listarUsuarios: function (req, res) {
+  listarUsuario: function (req, res) {
 
         Usuario.find()
             .exec(function (errorIndefinido, usuariosEncontrados) {
@@ -43,7 +43,8 @@ module.exports = {
                     usuarios:usuariosEncontrados
                 });
             })
-    }
+    },
+  
     
 };
 
