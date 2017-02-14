@@ -6,25 +6,24 @@
  */
 
 module.exports = {
-    
-    home:function(req,res){
+
+    home: function (req, res) {
         return res.view('vistas/home');
     },
-    
-    crearUsuario:function(req,res){
+    crearUsuario: function (req, res) {
         return res.view('vistas/Usuario/crearUsuario');
     },
-    error:function(req,res){
-        return res.view('vistas/Error',{
-            error:{
-                desripcion:"Usted esta por error en esta Ruta dirijase a Inicio",
-                rawError:"Ruta equivocada",
-                url:"/Inicio"
+    error: function (req, res) {
+        return res.view('vistas/Error', {
+            error: {
+                desripcion: "Usted esta por error en esta Ruta dirijase a Inicio",
+                rawError: "Ruta equivocada",
+                url: "/Inicio"
             }
         });
     },
   
-  listarUsuario: function (req, res) {
+    listarUsuarios: function (req, res) {
 
         Usuario.find()
             .exec(function (errorIndefinido, usuariosEncontrados) {
@@ -45,13 +44,48 @@ module.exports = {
             })
     },
   
-    
+    editarUsuario: function(req, rest){
+      var parametros = req.allParams();
+      
+      if (parametros.id){
+        
+        Usuario.findOne({
+          id:parametros.id
+        }).exec(function(errorInesperado, UsuarioEncontrado){
+          if(errorInesperado){
+            error: {
+                desripcion: "Usted esta por error en esta Ruta dirijase a Inicio",
+                rawError: "Ruta equivocada",
+                url: "/ListarUsuarios"
+            }
+          }
+          
+          if(UsuarioEncontrado){
+          } else {
+            return res.view('vistas/Error', {
+            error: {
+                desripcion: "El usuario con Id: " +parametros.id +" no existe",
+                rawError: "No existe el usuario",
+                url: "/ListarUsuarios"
+            }
+        });
+          }
+          
+          
+        })
+        
+      } else {
+        return res.view('vistas/Error', {
+            error: {
+                desripcion: "Usted esta por error en esta Ruta dirijase a Inicio",
+                rawError: "Ruta equivocada",
+                url: "/ListarUsuarios"
+            }
+        });
+        
+      }
+      
+      return res.view("vistas/Usuario/editarUsuario");
+    }
+
 };
-
-
-    
-    
-    
-    
-    
-    
