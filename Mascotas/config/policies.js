@@ -48,4 +48,15 @@ module.exports.policies = {
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
+    
+    RutasController: {
+      
+      home: true,
+      error: true,
+      lsitarUsuarios: ['autenticado'],
+      crearUsuario: ['autenticado'],
+      editarUusuario: ['autenticado', 'esElMismoUsuario'],
+
+    }
+  
 };
