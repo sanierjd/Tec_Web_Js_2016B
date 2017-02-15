@@ -22,7 +22,6 @@ module.exports = {
             }
         });
     },
-  
     listarUsuarios: function (req, res) {
 
         Usuario.find()
@@ -37,55 +36,60 @@ module.exports = {
                         }
                     });
                 }
-            
+
                 res.view('vistas/Usuario/ListarUsuarios', {
-                    usuarios:usuariosEncontrados
+                    usuarios: usuariosEncontrados
                 });
             })
     },
-  
-    editarUsuario: function(req, rest){
-      var parametros = req.allParams();
-      
-      if (parametros.id){
-        
-        Usuario.findOne({
-          id:parametros.id
-        }).exec(function(errorInesperado, UsuarioEncontrado){
-          if(errorInesperado){
-            error: {
-                desripcion: "Usted esta por error en esta Ruta dirijase a Inicio",
-                rawError: "Ruta equivocada",
-                url: "/ListarUsuarios"
-            }
-          }
-          
-          if(UsuarioEncontrado){
-          } else {
+
+
+    editarUsuario: function (req, res) {
+
+        var parametros = req.allParams();
+
+        if (parametros.id) {
+
+            Usuario.findOne({
+                id: parametros.id
+            }).exec(function (errorInesperado, UsuarioEncontrado) {
+                if (errorInesperado) {
+                    return res.view('vistas/Error', {
+                        error: {
+                            desripcion: "Error Inesperado",
+                            rawError: errorInesperado,
+                            url: "/ListarUsuarios"
+                        }
+                    });
+                }
+                if(UsuarioEncontrado){
+                     return res.view("vistas/Usuario/editarUsuario",{
+                         usuarioAEditar:UsuarioEncontrado
+                     });
+                }else{
+                    return res.view('vistas/Error', {
+                        error: {
+                            desripcion: "El usuario con id: "+parametros.id+" no existe.",
+                            rawError: "No existe el usuario",
+                            url: "/ListarUsuarios"
+                        }
+                    });
+                }
+            })
+        } else {
+
             return res.view('vistas/Error', {
-            error: {
-                desripcion: "El usuario con Id: " +parametros.id +" no existe",
-                rawError: "No existe el usuario",
-                url: "/ListarUsuarios"
-            }
-        });
-          }
-          
-          
-        })
-        
-      } else {
-        return res.view('vistas/Error', {
-            error: {
-                desripcion: "Usted esta por error en esta Ruta dirijase a Inicio",
-                rawError: "Ruta equivocada",
-                url: "/ListarUsuarios"
-            }
-        });
-        
-      }
-      
-      return res.view("vistas/Usuario/editarUsuario");
+                error: {
+                    desripcion: "No ha enviado el parametro ID",
+                    rawError: "Faltan Parametros",
+                    url: "/ListarUsuarios"
+                }
+            });
+
+        }
     }
+
+
+
 
 };
